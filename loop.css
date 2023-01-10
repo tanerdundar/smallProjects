@@ -1,0 +1,47 @@
+.grid-child {
+    width: 150px;
+    height: 150px;
+}
+.buton {
+    width: 150px;
+    height: 30px;
+}
+#sari {
+    background-color: yellow;
+}
+#kirmizi {
+    background-color: red;
+}
+
+#b1 {
+    background-color: yellow;
+}
+#b2 {
+    background-color:  yellow;
+}
+#b3 {
+    background-color: yellow;
+}   
+#b4 {
+    background-color: yellow;
+}
+
+#b6 {
+    background-color: yellow;
+}
+#b7 {
+    background-color: yellow;
+}
+#b8 {
+    background-color: yellow;
+    
+}
+#b9 {
+    background-color: yellow;
+} 
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 490px;
+}
