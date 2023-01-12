@@ -38,18 +38,3 @@ function renkDegis() {
     document.getElementById(idArr[(i + 1) % 8]).style.backgroundColor = styleKirmizi;
     i++
 }
-
-// let person = {isim:"sefa" , soyisim:"tannn", yas:16 , durum:false}
-// let person2 = {isim:"sefa" , soyisim:"okkk" , yas:52, durum:true}
-
-
-
-// let personel = [person,person2]
-
-// const result  = personel.filter(personels)
-
-
-// function personels(personel){
-//    return personel.isim == "sefa" && personel.durum == true
-// }
-// console.log(result)
