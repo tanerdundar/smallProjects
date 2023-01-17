@@ -1,0 +1,20 @@
+
+#text {
+    width: auto;
+    height: 350px;
+    padding-top: 150px;
+    font-size: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blue;
+}
+
+.degistir {
+    background-color: rgb(244, 114, 135);
+    width: 450px;
+    height: 75px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.degistir:hover {
+    background-color: rgb(250, 203, 211);
+}
