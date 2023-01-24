@@ -1,6 +1,7 @@
 # smallProjects
- lamp
- loop
- backgroundChanger
- stopwatch3
- notepad
+ lamp #finished
+ looper #finished
+ backgroundChanger #finished
+ stopwatch #finished
+ notepad #finished
+ photo #ongoing
