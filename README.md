@@ -4,4 +4,4 @@
  backgroundChanger #finished <br>
  stopwatch #finished <br>
  notepad #finished <br>
- photo #ongoing <br>
+ photoGallery #ongoing <br>
