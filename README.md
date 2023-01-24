@@ -1,5 +1,5 @@
 # smallProjects
- lamp #finished
+ lamp #finished <br>
  looper #finished
  backgroundChanger #finished
  stopwatch #finished
