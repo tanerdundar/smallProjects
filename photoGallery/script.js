@@ -14,11 +14,11 @@ let photoTwo =document.getElementById('photo2')
 let photoThree =document.getElementById('photo3')
 let photoFour =document.getElementById('photo4')
 
-let arr  =["Leclerc.jpg","Sainz.jpg","Perez.jpg","Verstappen.jpg"]
-let arr2 =["Hamilton.jpg","Russell.jpg","Ocon.jpg","Gasly.jpg"]
-let arr3 =["Norris.jpg","Piastri.jpg","Bottas.jpg","Zhou.jpg"]
-let arr4 =["Stroll.jpg","Alonso.jpg","Magnussen.jpg","Hulkenberg.jpg"]
-let arr5 =["De Vries.jpg","Tsunoda.jpg","Albon.jpg","Sargeant.jpg"]
+let arr  =["photos/Leclerc.jpg","photos/Sainz.jpg","photos/Perez.jpg","photos/Verstappen.jpg"]
+let arr2 =["photos/Hamilton.jpg","photos/Russell.jpg","photos/Ocon.jpg","photos/Gasly.jpg"]
+let arr3 =["photos/Norris.jpg","photos/Piastri.jpg","photos/Bottas.jpg","photos/Zhou.jpg"]
+let arr4 =["photos/Stroll.jpg","photos/Alonso.jpg","photos/Magnussen.jpg","photos/Hulkenberg.jpg"]
+let arr5 =["photos/De Vries.jpg","photos/Tsunoda.jpg","photos/Albon.jpg","photos/Sargeant.jpg"]
 
 changePhoto(arr);
 button1.style.backgroundColor=("rgb(52, 43, 43)")

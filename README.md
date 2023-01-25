@@ -5,4 +5,5 @@
  stopwatch #finished <br>
  notepad #finished <br>
  photoGallery #finished <br>
- photoGallery(Responsive) #ongoing<br>
+ photoGallery(Responsive) #finished<br>
+ contactMe #ongoing
