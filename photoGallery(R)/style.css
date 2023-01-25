@@ -27,26 +27,29 @@ body {
     min-height: 750px;
     
    }
-   @media screen and (max-width: 768px){
+   @media screen and (max-width: 992px){
     .grid-container {
         grid-template-columns: 1fr 1fr 1fr; 
         row-gap: 1%; 
         column-gap: 6%; 
-        margin-top: 220px;
-        margin-left: 145px;  
+        margin-top: 125px;
+        margin-bottom: 175px; 
         width: auto; 
     }
    }
-   @media screen and (max-width: 420px){
+   @media screen and (max-width: 768px){
     .grid-container {
         grid-template-columns: 1fr 1fr ;
         row-gap: 0.5%;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 200px;
     }
     .container {
         margin-top: 1%;
     }
    }
-   @media screen and (max-width: 150px){
+   @media screen and (max-width: 420px){
     .container {
         margin-top: 1%;
         grid-template-columns: 1fr;
