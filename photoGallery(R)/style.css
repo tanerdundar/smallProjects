@@ -28,24 +28,30 @@ body {
     
    }
    @media screen and (max-width: 768px){
-    img{
-        width: 100%;  
-    }
     .grid-container {
-        grid-template-columns: 1fr 1fr; 
+        grid-template-columns: 1fr 1fr 1fr; 
         row-gap: 1%; 
-        column-gap: 6%;   
-
+        column-gap: 6%; 
+        margin-top: 220px;
+        margin-left: 145px;  
+        width: auto; 
     }
-    .container {
-        width: auto;
-        margin-top: 50px;
-    }
-
    }
-   @media screen and (max-width: 380px){
+   @media screen and (max-width: 420px){
     .grid-container {
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr 1fr ;
         row-gap: 0.5%;
     }
+    .container {
+        margin-top: 1%;
+    }
+   }
+   @media screen and (max-width: 150px){
+    .container {
+        margin-top: 1%;
+        grid-template-columns: 1fr;
+    }
+    .grid-container {
+        grid-template-columns: 1fr ;
+   }
    }
