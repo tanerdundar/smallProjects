@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-</head>
-<body>
-    
-</body>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body >
+    <div class="iff">
+    <h1 class="fer">Registration Form</h1>
+    <p class="fer">Lütfen doldur</p>
+    <form method="post" >
+      <fieldset>
+        <label for="first-name">Ad: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Soyad: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Email: <input id="email" name="email" type="email" required /></label>
+        <label for="new-password">Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> ADDD</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> BDDD</label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="https://www.google.com.tr//">terms and conditions</a>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">photo: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="age">Yaş <input id="age" type="number" name="age" min="13" max="120" /></label>
+        <label for="referrer">asdasdfd
+          <select id="referrer" name="referrer">
+            <option value="">aadas</option>
+            <option value="1">nwas</option>
+            <option value="2">Ygfdgl</option>
+            <option value="3">Fıou</option>
+            <option value="4">Otfdd</option>
+          </select>
+        </label>
+        <label for="bio">Bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Deneme deneme 1-2"></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+</div>
+  </body>
 </html>

@@ -6,4 +6,5 @@
  notepad #finished <br>
  photoGallery #finished <br>
  photoGallery(Responsive) #finished<br>
- contactMe #ongoing
+ contactMe #finished <br>
+ inputChecker #not-started
