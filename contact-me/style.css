@@ -7,7 +7,8 @@
 .insideDiv{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    column-gap: 30px; 
+    column-gap: 30px;
+    width: 150px; 
 }
 .bir {
     height: 75px;  
@@ -42,7 +43,10 @@ p {
     font-size: 20px;
 }
 #sthme{
-    width: 115px;
+    width: 75px;
+}
+#stme{
+  width: 75px;
 }
 @media screen and (max-width: 1350px){
     .iki { 
@@ -133,9 +137,18 @@ p {
   input[type="file"] {
     padding: 1px 2px;
   }
-  * {
+ .bbcc {
     background-color: #1b1b32;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+ #home {
+  margin-right: 21%;
+  margin-top: 100px;
+ }
+ .homeCont {
+  margin-right: 51%;
+  margin-top: 100px;
+  font-size: 50px; 
+ }
