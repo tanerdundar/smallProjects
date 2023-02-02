@@ -1,0 +1,56 @@
+.insider {
+    padding-top: 50px;
+    background-color: rgb(198, 243, 243,0.4);
+    width: auto;
+    height: 100px;
+}
+.secondary{
+    background-color: rgb(255, 214, 221,0.6);
+    width: auto;
+    height: 1250px;
+}
+input{
+    margin-top: 150px;
+    height: 45px;
+    width: 450px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 5px solid darkblue;
+}
+button{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 5px solid rgb(85, 92, 173);
+}
+.finder {
+    margin-right: 260px;
+}
+.list {
+
+    width: 450px;
+    height: 450px;
+    background-color: white; 
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 5px solid rgb(234, 211, 211);   
+   
+}
+#div2 ,#div3{
+    width: 350px;
+    height: 350px;
+    background-color: white; 
+    margin-top: 30px;
+    border-radius: 15px;
+    margin-right: 50px;
+    text-align:left;
+    color: rgb(2, 2, 14);
+    font-size:25px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    
+}

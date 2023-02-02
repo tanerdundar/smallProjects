@@ -7,4 +7,4 @@
  photoGallery #finished <br>
  photoGallery(Responsive) #finished<br>
  contactMe #finished <br>
- inputChecker #not-started..
+ inputChecker #finished <br>
