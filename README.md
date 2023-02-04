@@ -8,3 +8,4 @@
  photoGallery(Responsive) #finished<br>
  contactMe #finished <br>
  inputChecker #finished <br>
+ newProject #finished <br>
