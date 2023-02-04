@@ -1,0 +1,79 @@
+.title {
+    width: auto;
+    height: 20px;
+    background-color: rgb(255, 253, 251);
+}
+.inside{
+    
+    width: auto;
+    height: 850px;
+    background-color: rgb(163, 64, 255);
+    padding-top: 50px;
+}
+.inside-deep {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 390px;
+    height: 300px;
+    margin-right: 300px;
+}
+
+#inner-inside-2 {
+    width: 550px;
+    height: 400px;
+    background-color: rgb(232, 217, 193);
+    border-radius: 25px; 
+    padding-top: 50px;  
+    box-shadow: 0 0 50px 15px rgb(34, 34, 18);
+}
+#inner-inside-1, #inner-inside-3 {
+    margin-top: 175px;
+    margin-bottom: 175px;
+    width: 50px;
+    height: 50px;
+    opacity: 0.2;
+}
+#inner-inside-1{
+    background-image: url("arrow/sol.png");
+    background-size: contain;
+}
+#inner-inside-3{
+    background-image: url("arrow/sag.png");
+    background-size: contain;
+}
+.deeper-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;  
+    background-image: url(" ");
+    background-size: contain;
+    box-shadow: 20px -10px 15px -5px rgb(163, 64, 255);
+}
+.deeper-name{
+    padding-top: 20px;
+    width: 250px;
+    height: 30px;
+    font-size: 25px;
+}
+.deeper-prof{
+    padding-top: 30px;
+    font-size: 25px;
+    width: 200px;
+    height: 30px;
+    color: rgb(60, 163, 60);
+}
+.deeper-bio {
+    padding-top: 30px;
+    width: 500px;
+    height: 120px;
+    color: rgb(20, 1, 1);
+    font-size: 25px;
+}
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 4px solid rgb(92, 62, 8);
+    background: linear-gradient(90deg, rgb(122, 74, 14) 0%,  rgb(163, 64, 255) 70%);
+}
