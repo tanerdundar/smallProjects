@@ -62,6 +62,7 @@
     width: 200px;
     height: 30px;
     color: rgb(60, 163, 60);
+   
 }
 .deeper-bio {
     padding-top: 30px;
@@ -69,8 +70,12 @@
     height: 120px;
     color: rgb(20, 1, 1);
     font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    
 }
 button {
+    
     width: 150px;
     height: 40px;
     border-radius: 20px;

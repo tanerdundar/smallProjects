@@ -2,19 +2,19 @@ let people= [
     {
         name:"Mustafa Özbulut",
         profession:"Web Developer",
-        description:"Siki kutu kola kadar.(Maaşallah)",
+        description:"Kutu kola kadar.(Maaşallah)",
         photo: "p/m.JPG"
     },
     {
         name:"Sefa Çekerek",
         profession:"None",
-        description:"Belçika'da mülteci.",
+        description:"Sürünüyor.",
         photo: "p/s.jpg"
     },
     {
         name:"Erdoğan Evci",
         profession:"Jigolo / Pornstar",
-        description:"İyi siker hocam",
+        description:"33 santim diyolar ama ben hiç görmedim",
         photo: "p/y.jpg"
     },
     {
@@ -26,7 +26,7 @@ let people= [
     {
         name:"Ersin Evci",
         profession:"#OpenToWork",
-        description:"kimbusik",
+        description:"Kim Busik (Kore'li bir devlet adamı ve yazardır.)",
         photo: "p/e.jpg"
     }
 ]
@@ -51,8 +51,8 @@ supriseButton.addEventListener('click',()=> {
 
 function getBio(i) {
     let k= i%5;
-    document.getElementById('img').style.backgroundImage = `url(${people[k].photo})`
-    document.getElementById('nam').innerHTML = people[k].name
-    document.getElementById('pro').innerHTML = people[k].profession
-    document.getElementById('bio').innerHTML = people[k].description
+        document.getElementById('img').style.backgroundImage = `url(${people[k].photo})`
+        document.getElementById('nam').innerHTML = people[k].name
+        document.getElementById('pro').innerHTML = people[k].profession
+        document.getElementById('bio').innerHTML = people[k].description
 }
